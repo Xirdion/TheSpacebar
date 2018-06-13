@@ -1,3 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Read: {{ title }}{% endblock %}
+
+{% block body %}
+
 <h1>{{ title }}</h1>
 
 <div>
@@ -18,3 +24,5 @@
         <li>{{ comment }}</li>
     {% endfor %}
 </ul>
+
+{% endblock %}
